@@ -1,0 +1,1 @@
+This is a page to describe my personality type and communication style.
