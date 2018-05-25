@@ -1,3 +1,72 @@
 body {
+    flex-wrap: wrap;
     background-color: lightgray;
+    font-family: 'Cormorant', serif;
+    font-size: 1.5em;
+    list-style-position: inside;
+}
+
+#intjImage {
+    float: left;
+    /* width: 250px;
+    height: 336px; */
+    margin-right: 4%;
+    margin-left: 2%;
+    border-radius: 2%;
+}
+
+.personality {
+    text-align: center;
+}
+#introduction > h2{
+    text-align: center
+}
+#introduction > h2 + h3{
+    text-align: center
+}
+
+.strengthsAndWeaknesses {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+
+#strengths, #weaknesses {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    border: 3px solid #66757F;
+    background-color:  #55ACEE;
+}
+.strengthsAndWeaknesses h2{
+    text-align: center;
+}
+
+.row2 {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    /* margin-left: 23.5%; */
+    margin-top: 2%;
+}
+
+.row2 h2 {
+    text-align: center;
+}
+
+#commPoints {
+    margin-left: 0%;
+    justify-content: center;
+}
+
+#myHomies li {
+    font-size: 2em;
+}
+#commPoints, #myHomies{
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    border: 3px solid #66757F;
+    background-color:  #55ACEE;
 }
